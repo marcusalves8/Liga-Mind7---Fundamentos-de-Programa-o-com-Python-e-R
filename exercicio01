@@ -1,0 +1,8 @@
+>>> print ("Meu primeio programa em Python")
+Meu primeio programa em Python
+>>> print ('Meu segundo', 'programa', 'em Python')
+Meu segundo programa em Python
+>>> nome = 'Python'
+>>> print ('Meu terceiro', 'programa em', nome )
+Meu terceiro programa em Python
+>>> 
