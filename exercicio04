@@ -1,0 +1,15 @@
+>>> x = 10
+>>> y = 2
+>>> print(x + y)
+12
+>>> print (x ** 2)
+100
+>>> print (y * 2)
+4
+>>> print (y / x)
+0.2
+>>> print (x / y)
+5.0
+>>> print (y - x)
+-8
+>>> 
