@@ -1,5 +1,10 @@
-nota1 = int(input("Digite nota 1: "))
-nota2 = int(input("Digite nota 2: "))
-nota3 = int(input("Digite nota 3: "))
-media = (nota1 + nota2 + nota3)/3 
-print ("A média foi de", media)
+>>> nota1 = int(input('Digite nota 1: '))
+Digite nota 1: 5
+>>> nota2 = int(input('Digite nota 2: '))
+Digite nota 2: 6
+>>> nota3 = int(input('Digite nota 3: '))
+Digite nota 3: 7
+>>> media = (nota1 + nota2 + nota3)/3
+>>> print ("A média foi de", media)
+A média foi de 6.0
+>>> 
