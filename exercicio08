@@ -1,0 +1,6 @@
+>>> nome = 'Ronaldinho'
+>>> sobrenome = 'Gaucho'
+>>> idade = 37
+>>> print ("Me chamo {} {} e tenho {} anos".format(nome, sobrenome, idade))
+Me chamo Ronaldinho Gaucho e tenho 37 anos
+>>> 
