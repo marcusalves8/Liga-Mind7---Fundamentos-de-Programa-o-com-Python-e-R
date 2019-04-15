@@ -1,0 +1,6 @@
+>>> velocidade = 60
+>>> tempo = 3
+>>> distancia = velocidade * tempo
+>>> print (distancia)
+180
+>>> 
