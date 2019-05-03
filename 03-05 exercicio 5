@@ -1,0 +1,7 @@
+print("Exercicio #5")
+print (list(range(0,101,2)))
+
+
+ou
+
+
