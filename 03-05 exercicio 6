@@ -1,0 +1,24 @@
+print("Exercicio #6-a")
+lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+for i in range(len(lst)):
+    if (lst[i] < 6):
+        print(lst[i])
+        
+
+print("Exercicio #6-b")
+lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+novaLst = []
+for item in lst:
+    if item <= 5:
+        novaLst.append(item)
+print(novaLst)
+
+
+print("Exercicio #6-c")
+n = int(input("Digite um numero: "))
+lst = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+novaLst = []
+for item in lst:
+    if item <= n:
+        novaLst.append(item)
+print(novaLst)
