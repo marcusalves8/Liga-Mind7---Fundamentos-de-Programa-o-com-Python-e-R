@@ -1,0 +1,33 @@
+def bemvindo():
+    print('''Bem vindo à Calculadora''')
+
+def calculadora():
+    operador = input('''
+Por favor, digite a operação matemática que você gostaria de completar:
++ para adição
+- para subtração
+* para multiplicação
+/ para divisão
+''')
+
+    number_1 = int(input('Entre com o primeiro numero: '))
+    number_2 = int(input('Entre com o segundo numero: '))
+
+    if operador == '+':
+      print( '{} + {} = '.format(number_1, number_2))
+      print(number_1 + number_2)
+    
+    elif operador == '-':
+      print( '{} - {} = '.format(number_1, number_2))
+      print(number_1 - number_2)
+
+    elif operador == '*':
+      print( '{} * {} = '.format(number_1, number_2))
+      print(number_1 * number_2)  
+    
+    elif operador == '/':
+      print( '{} / {} = '.format(number_1, number_2))
+      print(number_1 / number_2)
+
+    else:
+        print('Você não digitou um operador válido, por favor, execute o programa novamente.')
